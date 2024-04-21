@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk with Tree</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        header p {
+            font-size: 1em;
+        }
+
+        .contact-button {
+            cursor: pointer;
+            color: #ecf0f1;
+            font-size: 1em;
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 1em;
+            text-align: center;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px; /* Optional: Add border-radius for a rounded image */
+            margin: 1em 0;
+        }
+
+        .contact-section {
+            padding: 1em;
+            font-size: 1em;
+        }
+
+        .contact-section h2 {
+            font-size: 1.5em;
+        }
+
+        .contact-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-section li {
+            margin-bottom: 0.5em;
+        }
+
+        section h2 {
+            font-size: 1.5em;
+        }
+
+        section p {
+            font-size: 1em;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Talk with Tree</h1>
+        <p>Connecting You to Nature's Wisdom</p>
+        <div style="font-size: 30px;" class="contact-button" onclick="scrollToContact()">Contact</div>
+    </header>
+
+    <img src="tree.jpg" alt="Nature Image">
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Welcome to "Talk with Tree," where nature meets technology to create a unique and enriching experience. Our mission is to facilitate a meaningful connection between individuals and the natural world by providing a platform for conversations with trees.</p>
+    </section>
+
+    <div class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <p>To further enhance your experience and address any queries, we encourage you to reach out to us. Connect with 'Talk with Tree' through our dedicated contact section, where our team is ready to assist you, answer your questions, and provide support.</p>
+
+        <ul>
+            <li><strong>Email:</strong> atharvp11@gmail.com</li>
+            <li><strong>Phone:</strong> +91 9921887615</li>
+            <li><strong>Social Media:</strong> Follow us on <a href="linkedin.com/in/atharv-patil-858593244">LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <section>
+        <h2>Why Talk with Tree?</h2>
+        <p>"Engaging in conversations with trees on the 'Talk with Tree' platform offers a transformative experience rooted in the essence of nature. At its core, the platform provides a sanctuary for stress relief, allowing individuals to escape the pressures of modern life and find solace in the calming presence of trees. Beyond mere relaxation, 'Talk with Tree' facilitates a profound connection with nature, encouraging users to appreciate the wisdom embedded in the ancient beings that populate our environment. Through guided meditations and mindfulness exercises, users embark on a journey of self-reflection, fostering personal growth and a deeper understanding of their thoughts and emotions. The platform serves as a wellspring of inspiration, igniting creativity by tapping into the unique perspectives offered by the natural world. Additionally, the sense of community created through virtual tree circles and events not only connects like-minded individuals but also cultivates a shared appreciation for the beauty and significance of trees. 'Talk with Tree' is not just a platform; it's an innovative bridge between technology and nature, providing a refreshing and unique user experience that encourages environmental awareness and a holistic approach to well-being."</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Talk with Tree. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function scrollToContact() {
+            var contactSection = document.getElementById('contact');
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
+``
